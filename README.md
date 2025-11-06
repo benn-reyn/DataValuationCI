@@ -1,18 +1,17 @@
 # DataValuationCI
 
-This repository contains code and resources for our AI & Labor Optimization in Mfg / Data Valuation & Game Theoretical Modeling research at Clemson University.  
-Our goal is to [...].
+Code and resources for AI & Labor Optimization and Data Valuation research at Clemson University, focused on data from floor bots in partnership with BMW.  
 
-# Features
-- Data processing scripts
-- Statistical analysis / models
-- Visualizations and results
-- Documentation for reproducibility
+Includes:
+- Data processing and analysis scripts
+- Jupyter notebooks for modeling and visualization
+- Reproducible research documentation  
 
-## Getting Started
-   ```bash
-   git clone https://github.com/benn-reyn/DataValuationCI.git
-
-   pip install -r requirements.txt
-
-   python (intheworks).py
+## Setup
+```bash
+git clone https://github.com/benn-reyn/DataValuationCI.git
+cd DataValuationCI
+pip install -r requirements.txt
+python riskValuation.ipynb
+python CostBenefit.ipynb
+python EVSI_Model.py
