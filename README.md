@@ -14,4 +14,4 @@ cd DataValuationCI
 pip install -r requirements.txt
 python riskValuation.ipynb
 python CostBenefit.ipynb
-python EVSI_Model.py
+python lagrangianOptimization.ipynb
